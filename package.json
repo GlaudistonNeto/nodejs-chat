@@ -1,22 +1,21 @@
 {
-  "name": "nodejs-chat",
+  "name": "RealtimeChat",
   "version": "1.0.0",
-  "description": "a realtime chat",
+  "description": "chatApp",
   "main": "index.js",
-  "repository": "https://github.com/GlaudistonNeto/nodejs-chat.git",
-  "author": "GlaudistonNeto <glaudistonson@gmail.com>",
-  "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.js"
   },
-  "dependencies": {
-    "express": "^4.17.1",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.12.0-beta.3"
-  },
+  "repository": "https://github.com/GlaudistonNeto/RealtimeChat.git",
+  "author": "GlaudistonNeto",
+  "license": "MIT",
   "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pusher": "^5.0.0"
+  },
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "sequelize-cli": "^6.3.0"
+    "nodemon": "^2.0.15"
   }
 }
